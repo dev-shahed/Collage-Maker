@@ -1,0 +1,31 @@
+/* Vintage Style */
+.vintage-style {
+  @apply bg-amber-50;
+}
+.vintage-style img {
+  @apply border-8 border-white shadow-xl rotate-[-2deg];
+}
+
+/* Modern Style */
+.modern-style {
+  @apply bg-white;
+}
+.modern-style img {
+  @apply rounded-lg shadow-lg;
+}
+
+/* Polaroid Style */
+.polaroid-style {
+  @apply bg-gray-100;
+}
+.polaroid-style img {
+  @apply border-[12px] border-b-[48px] border-white shadow-xl;
+}
+
+/* Neon Style */
+.neon-style {
+  @apply bg-gray-900;
+}
+.neon-style img {
+  @apply border-4 border-white shadow-[0_0_20px_rgba(62,255,255,0.3)];
+}
