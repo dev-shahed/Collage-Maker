@@ -11,7 +11,6 @@ const initialState: Partial<CollageState> = {
     type: 'color',
     value: '#ffffff'
   },
-  overlayText: 'Best of 2024',
   selectedPhotoId: null,
   currentStyle: null,
   isProcessing: false,

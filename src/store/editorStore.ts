@@ -10,7 +10,6 @@ const initialState: CollageState = {
     type: 'color',
     value: '#ffffff'
   },
-  overlayText: 'Best of 2024',
   selectedPhotoId: null
 };
 
