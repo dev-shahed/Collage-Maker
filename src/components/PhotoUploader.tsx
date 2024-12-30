@@ -23,7 +23,7 @@ export const PhotoUploader: React.FC = () => {
   return (
     <div
       {...getRootProps()}
-      className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors
+      className={`border-2 border-dashed rounded-lg md:p-8 p-4 text-center cursor-pointer transition-colors
         ${
           isDragActive
             ? 'border-blue-500 bg-blue-50'

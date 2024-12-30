@@ -41,17 +41,6 @@ export const ExportOptions: React.FC = () => {
             Download JPEG
           </button>
         </div>
-
-        {/* Share Button */}
-        <button
-          className="p-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors flex items-center"
-          onClick={() => {
-            // Implement sharing functionality
-          }}
-        >
-          <Share2 className="w-5 h-5" />
-          <span className="hidden sm:inline-block ml-2">Share</span>
-        </button>
       </div>
     </div>
   );

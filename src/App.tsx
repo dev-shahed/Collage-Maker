@@ -15,7 +15,7 @@ function App() {
         <StyleSelector />
         <AIEffects />
       </div>
-      <div className="flex-1 sm-m-4">
+      <div className="flex-1 sm:m-4">
         <CollageEditor />
       </div>
     </div>
